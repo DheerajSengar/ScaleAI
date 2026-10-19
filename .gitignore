@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+node_modules/
+data/*
+!data/company.json
+coverage/
+*.log
+.next/
+out/
+*.tsbuildinfo
