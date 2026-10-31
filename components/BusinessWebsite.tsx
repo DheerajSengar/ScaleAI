@@ -260,7 +260,6 @@ export default function BusinessWebsite() {
       <header className="saas-header">
         <div className="saas-header-inner">
           <Link href="/" className="saas-brand" aria-label="SCALE AI Homepage">
-            <span className="saas-brand-icon" aria-hidden="true">S</span>
             <span className="saas-brand-text">
               SCALE <strong>AI</strong>
               <small>AI &amp; TECHNOLOGY</small>
@@ -980,7 +979,6 @@ export default function BusinessWebsite() {
           <div className="saas-footer-top">
             <div className="footer-col-brand">
               <Link href="/" className="saas-brand">
-                <span className="saas-brand-icon" aria-hidden="true">S</span>
                 <span className="saas-brand-text">
                   SCALE <strong>AI</strong>
                   <small>AI &amp; TECHNOLOGY</small>

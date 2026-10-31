@@ -174,7 +174,7 @@ export default function TeamInbox({ embedded = false, loginEnabled, onTeamAuthCh
     <PanelContainer className={embedded ? "team-embedded team-embedded-inbox" : "team-inbox-shell"}>
       <div className="team-workspace-layout">
       <aside className="team-workspace-rail" aria-label="Team inbox navigation">
-        <div className="team-rail-brand"><span aria-hidden="true">S</span><div><strong>SCALE AI</strong><small>TEAM WORKSPACE</small></div></div>
+        <div className="team-rail-brand"><div><strong>SCALE AI</strong><small>TEAM WORKSPACE</small></div></div>
         <div className="team-rail-section-label">WORKSPACE</div>
         <div className="team-rail-tabs" role="tablist" aria-label="Team inbox sections">
           <button type="button" role="tab" aria-selected={inboxView === "requests"} className={inboxView === "requests" ? "selected" : ""} onClick={() => setInboxView("requests")}>

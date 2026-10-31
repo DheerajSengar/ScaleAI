@@ -5,7 +5,6 @@ export default function SiteChrome({ children }: { children: ReactNode }) {
   return <>
     <header className="topbar">
       <Link className="brand" href="/" aria-label="SCALE AI Website">
-        <span className="brand-mark" aria-hidden="true">S</span>
         <span>SCALE <span>AI</span><small>ENTERPRISE ENGINEERING</small></span>
       </Link>
       <div className="chrome-context"><span>Digital products &amp; business technology</span><small>SECTOR 73 · NOIDA</small></div>
